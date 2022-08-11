@@ -1,0 +1,22 @@
+from pyexpat import XML_PARAM_ENTITY_PARSING_ALWAYS
+
+
+historial=(1000,5960,23000,1000,8900)
+variable=sum(historial)
+#for i in historial:
+ #       variable=variable
+
+       
+if variable<30000:
+
+        
+         print(variable)
+else:
+
+
+  print("se paso del valor")
+
+       
+   
+
+
